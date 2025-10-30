@@ -37,7 +37,7 @@ export default function MusicScreen({ templateId, cancion }) {
       <MusicPlayer cancion={cancion} initialPlay={initialPlay} />
 
       {showModal && (
-        <div className="fixed inset-0 bg-black bg-opacity-80 z-50 flex items-center justify-center">
+        <div className="fixed inset-0 bg-black/70 z-50 flex items-center justify-center">
           <div className="bg-white w-80 p-6 rounded-md text-center">
             <h2 className="text-lg mb-4">
               ¿Deseas ingresar con música?
