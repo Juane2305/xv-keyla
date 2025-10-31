@@ -109,7 +109,7 @@ const Invitacion = () => {
                   images={[
                     {
                       index: 1,
-                      img: "https://res.cloudinary.com/dfschbyq2/image/upload/v1761919192/08f0226b-6d22-4b4d-b8f2-900c4f82150e_2_fg4c73.jpg",
+                      img: "https://res.cloudinary.com/dfschbyq2/image/upload/v1761924033/08f0226b-6d22-4b4d-b8f2-900c4f82150e_2_uu8h7y.webp",
                     },
                     // {
                     //   index: 2,

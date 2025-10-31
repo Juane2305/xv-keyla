@@ -13,9 +13,9 @@ export const Card = React.memo(({ card, index, hovered, setHovered }) => (
     )}
   >
     <img
-      src={card.img}   // card.img es la URL
+      src={card.img}   
       alt={`Imagen ${card.index}`}
-      className="object-cover absolute inset-0 w-full h-full"
+      className="object-contain absolute inset-0 w-full h-full bg-white"
     />
   </div>
 ));
@@ -31,7 +31,7 @@ export function FocusCards({ cards, texto }) {
       <h2 className="text-center text-4xl pt-32 font-thin tracking-widest">
         {texto}
       </h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-2 max-w-5xl mx-auto md:px-8 w-full mt-10">
+      <div className="grid grid-cols-1 md:grid-cols-1 gap-2 md:gap-2 max-w-5xl mx-auto md:px-8 w-full mt-10">
         {cards.map((card, index) => (
           <Card
             key={card.index}
